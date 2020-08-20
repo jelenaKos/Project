@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54903" started-at="2020-08-20T14:58:17Z" finished-at="2020-08-20T14:59:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54903" started-at="2020-08-20T14:58:17Z" finished-at="2020-08-20T14:59:12Z">
+      <class name="JelenaTesting.Testing.Tests">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="setupSelenium" is-config="true" duration-ms="7536" started-at="2020-08-20T16:58:10Z" finished-at="2020-08-20T16:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="PASS" signature="setupPages()[pri:0, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="setupPages" is-config="true" duration-ms="0" started-at="2020-08-20T16:58:17Z" finished-at="2020-08-20T16:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method status="PASS" signature="signUp()[pri:1, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="signUp" duration-ms="9949" started-at="2020-08-20T16:58:18Z" finished-at="2020-08-20T16:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="signInWrongCredentials()[pri:2, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="signInWrongCredentials" duration-ms="5748" started-at="2020-08-20T16:58:27Z" finished-at="2020-08-20T16:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWrongCredentials -->
+        <test-method status="PASS" signature="signIn()[pri:3, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="signIn" duration-ms="6228" started-at="2020-08-20T16:58:33Z" finished-at="2020-08-20T16:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="createArticle()[pri:4, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="createArticle" duration-ms="19246" started-at="2020-08-20T16:58:39Z" finished-at="2020-08-20T16:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createArticle -->
+        <test-method status="PASS" signature="postComment()[pri:5, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="postComment" duration-ms="13700" started-at="2020-08-20T16:58:59Z" finished-at="2020-08-20T16:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postComment -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:JelenaTesting.Testing.Tests@39c0f4a]" test-instance-name="" name="closeSelenium" is-config="true" duration-ms="2089" started-at="2020-08-20T16:59:12Z" finished-at="2020-08-20T16:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSelenium -->
+      </class> <!-- JelenaTesting.Testing.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

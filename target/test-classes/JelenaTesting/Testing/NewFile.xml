@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing">
+	<test name="Tests">
+		<classes>
+
+			<class name="Tests">
+
+				<methods>
+					<include name="setupSelenium" />
+					<include name="setupPages" />
+					<include name="signUp" />
+					<include name="signInWrongCredentials" />
+					<include name="signIn" />
+					<include name="createArticle" />
+					<include name="postComment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
